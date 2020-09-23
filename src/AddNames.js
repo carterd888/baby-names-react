@@ -1,7 +1,9 @@
 import React from "react";
+import compare from "./Compare.js"
 
 function AddNames(props) {
   const myBabyNames = props.BabyNames;
+  myBabyNames.sort(compare);
   return (
     <ul>
       {myBabyNames.map((baby) => (

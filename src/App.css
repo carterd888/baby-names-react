@@ -8,10 +8,12 @@
 
 .App .f {
   color: purple;
+  background-color: pink;
 }
 
 .App .m {
   color: red;
+  background-color: black;
 }
 
 .App-logo {
